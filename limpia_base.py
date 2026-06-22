@@ -131,6 +131,6 @@ if archivo is not None:
     st.download_button(
         label="Descargar Excel",
         data=excel,
-        file_name="base_limpia",
+        file_name="base_limpia.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
